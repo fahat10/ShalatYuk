@@ -43,7 +43,7 @@ function shalat($keyword) {
     $response = Unirest\Request::get("$uri");
 
     $json = json_decode($response->raw_body, true);
-    $result = "Jadwal Shalat Sekitar ";
+    $result = "Halo Ka ^_^ ini Jadwal Shalat Sekitar ";
 	$result .= $json['location']['address'];
 	$result .= "\nTanggal : ";
 	$result .= $json['time']['date'];
