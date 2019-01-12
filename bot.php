@@ -83,7 +83,7 @@ if ($type == 'join' || $command == 'Hallo') {
 
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == 'jadwal') {
+	    if ($command == '/shalat') {
 
         $result = shalat($options);
         $balas = array(
